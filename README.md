@@ -1,7 +1,3 @@
-**jalcon**: A falcon-based web framework
-=======
-
-**Getting started:**
 
 **jalcon**: A falcon-based web framework
 =======
