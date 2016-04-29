@@ -28,19 +28,20 @@ def read(fname):
 
 setup(
     name = "jalcon",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "JA Arce",
     author_email = "johnandrewarce@gmail.com",
     description = ("jalcon is a bootstrap framework for Falcon with MongoDB"),
     license = "BSD",
     keywords = "jalcon falcon framework jalcon-rest",
-    url = "http://packages.python.org/an_example_pypi_project",
+    url = "https://github.com/jaarce/jalcon",
     packages=find_packages(),
     scripts=['jalcon-admin.py'],
     long_description='Why should it be long when there\'s a short description. Simply JAmazing!',
+    zip_safe=False,
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Topic :: Utilities",
-        "License :: OSI Approved :: BSD License",
+        'Topic :: Utilities',
+        'Environment :: Web Environment',
+        'License :: OSI Approved :: BSD License',
     ],
 )
