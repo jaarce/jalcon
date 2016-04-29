@@ -17,3 +17,5 @@
 > cd src
 
 > python server.py startapp app_name
+
+**TODO**: Make it have a pluggable app
