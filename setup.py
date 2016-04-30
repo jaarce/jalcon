@@ -28,7 +28,7 @@ def read(fname):
 
 setup(
     name = 'jalcon',
-    version = '0.0.3',
+    version = '0.0.4',
     author = 'JA Arce',
     author_email = 'johnandrewarce@gmail.com',
     description = ('jalcon is a bootstrap framework for Falcon with MongoDB'),
@@ -36,7 +36,6 @@ setup(
     keywords = 'jalcon falcon framework jalcon-rest',
     url = 'https://github.com/jaarce/jalcon',
     packages=find_packages(),
-    data_files = [('', ['LICENSE.txt', 'README.md'])]
     scripts=['jalcon-admin.py'],
     long_description='Why should it be long when there\'s a short description. Simply JAmazing!',
     zip_safe=False,
