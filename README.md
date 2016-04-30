@@ -4,7 +4,7 @@
 
 **Getting started:**
 
-> python setup.py install
+> pip install jalcon
 
 > jalcon-admin.py createproject project_name
 
