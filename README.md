@@ -4,7 +4,7 @@
 
 **Getting started:**
 
-> python setup.py install
+> pip install jalcon
 
 > jalcon-admin.py createproject project_name
 
@@ -17,3 +17,5 @@
 > cd src
 
 > python server.py startapp app_name
+
+**TODO**: Make it have a pluggable app
